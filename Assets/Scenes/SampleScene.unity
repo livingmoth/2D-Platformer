@@ -1664,11 +1664,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.364046
+      value: 8.8
       objectReference: {fileID: 0}
     - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.086839
+      value: -2.24
       objectReference: {fileID: 0}
     - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2038,6 +2038,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d065657931e985f49b06091269e46095, type: 3}
+--- !u!1001 &904405852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979435432057903663, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_Name
+      value: Isometric Diamond (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d065657931e985f49b06091269e46095, type: 3}
 --- !u!1 &982473058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,6 +2455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 100
+  Health: 0
   invincibilityTimer: 2
 --- !u!114 &1048695809
 MonoBehaviour:
@@ -2412,6 +2470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingCoins: 0
+  HealthComp: {fileID: 1048695808}
 --- !u!1 &1065581833
 GameObject:
   m_ObjectHideFlags: 0
@@ -4706,6 +4765,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1793813964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979435432057903663, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_Name
+      value: Isometric Diamond (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d065657931e985f49b06091269e46095, type: 3}
+--- !u!1001 &1802282265
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979435432057903663, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_Name
+      value: Isometric Diamond (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d065657931e985f49b06091269e46095, type: 3}
 --- !u!1 &1878810508
 GameObject:
   m_ObjectHideFlags: 0
@@ -4854,6 +5027,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a4e32db356bb554ea67f273042defa5, type: 3}
+--- !u!1001 &1925470744
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979435432057903663, guid: d065657931e985f49b06091269e46095, type: 3}
+      propertyPath: m_Name
+      value: Isometric Diamond (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d065657931e985f49b06091269e46095, type: 3}
 --- !u!1 &1925942446
 GameObject:
   m_ObjectHideFlags: 0
@@ -5132,11 +5362,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.78798
+      value: 13.44
       objectReference: {fileID: 0}
     - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8044307
+      value: -6.01
       objectReference: {fileID: 0}
     - target: {fileID: 1092249044844497667, guid: d065657931e985f49b06091269e46095, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5772,3 +6002,7 @@ SceneRoots:
   - {fileID: 860634458}
   - {fileID: 814743403}
   - {fileID: 1966280583}
+  - {fileID: 1802282265}
+  - {fileID: 1793813964}
+  - {fileID: 1925470744}
+  - {fileID: 904405852}
