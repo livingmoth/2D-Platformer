@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/1 - kot.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/GameFail.unity
+    guid: fe24d509ecd83284c9fba91073166cab
+  - enabled: 1
+    path: "Assets/Scenes/5 - ko\u015Bci.unity"
+    guid: 26881a960f66f974cb85e629a410281e
+  - enabled: 1
+    path: Assets/Scenes/4 - pies.unity
+    guid: 363de3b83dddb9247bd5e7a7ad5e484d
+  - enabled: 1
+    path: Assets/Scenes/3 - domek.unity
+    guid: e2c30861260c3d845a72cfc34f289b68
+  - enabled: 1
+    path: Assets/Scenes/2 - akwarium.unity
+    guid: a4a6f00488e598a41b4ec4963f83af07
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
