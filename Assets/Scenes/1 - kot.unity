@@ -4250,6 +4250,7 @@ MonoBehaviour:
   MaxHealth: 100
   Health: 0
   invincibilityTimer: 2
+  sceneName: GameFail
 --- !u!114 &1048695809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7060,6 +7061,14 @@ PrefabInstance:
     - target: {fileID: 1894582981995011167, guid: 521cf03a213bbba48804690f0769e2a8, type: 3}
       propertyPath: m_Name
       value: Triangle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475099128194318824, guid: 521cf03a213bbba48804690f0769e2a8, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1048695808}
+    - target: {fileID: 4475099128194318824, guid: 521cf03a213bbba48804690f0769e2a8, type: 3}
+      propertyPath: sceneName
+      value: GameFail
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

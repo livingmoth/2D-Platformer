@@ -1833,6 +1833,7 @@ MonoBehaviour:
   MaxHealth: 100
   Health: 0
   invincibilityTimer: 2
+  sceneName: GameFail
 --- !u!114 &1048695809
 MonoBehaviour:
   m_ObjectHideFlags: 0
