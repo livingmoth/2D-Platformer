@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5024338323445506473}
   - component: {fileID: 152523982820161118}
   - component: {fileID: 170687210223147606}
-  - component: {fileID: 7566802606263598681}
+  - component: {fileID: -5566340305176351049}
   m_Layer: 0
   m_Name: Square (6)
   m_TagString: Untagged
@@ -135,7 +135,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4117279, y: 2.840653}
   m_EdgeRadius: 0
---- !u!114 &7566802606263598681
+--- !u!114 &-5566340305176351049
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5566723788604012676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3105c148aa62a24dac8e1710b6b1878, type: 3}
+  m_Script: {fileID: 11500000, guid: 647ab37efc0d60047a32c1d1d44e7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 3 - domek
+  sceneName: 

@@ -68,4 +68,8 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
+    public static implicit operator PlayerHealth(int v)
+    {
+        throw new NotImplementedException();
+    }
 }
