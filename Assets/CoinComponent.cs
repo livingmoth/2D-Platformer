@@ -5,7 +5,7 @@ using UnityEngine;
 public class CoinComponent : MonoBehaviour
 {
     public float StartingCoins = 0;
-    private float Coins;
+    public float Coins;
     public PlayerHealth HealthComp;
    
 

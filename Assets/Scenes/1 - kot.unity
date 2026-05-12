@@ -763,7 +763,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5566723788604012676, guid: 34c65abca906c5840b900e7092f11171, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 982999703}
   m_SourcePrefab: {fileID: 100100000, guid: 34c65abca906c5840b900e7092f11171, type: 3}
 --- !u!1001 &250459079
 PrefabInstance:
@@ -4714,6 +4717,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5566340305176351049, guid: e8728166ba10c1844be4881b9a485854, type: 3}
+      propertyPath: allCoins
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -5566340305176351049, guid: e8728166ba10c1844be4881b9a485854, type: 3}
       propertyPath: sceneName
       value: 2 - akwarium
       objectReference: {fileID: 0}
@@ -5024,6 +5031,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5024338323445506473, guid: 34c65abca906c5840b900e7092f11171, type: 3}
   m_PrefabInstance: {fileID: 199709432}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &982999703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982999696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547b9ee46909e0e40ba28a3917b7750e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1038811607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5117,9 +5136,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 19.94
-  maxSpeed: 10
+  maxSpeed: 20
   jumpAmmount: 1
   maxjumps: 1
+  dashForce: 5
+  dashAmmount: 1
+  maxDash: 1
+  dashtime: 0.5
 --- !u!114 &1048695803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5323,6 +5346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingCoins: 0
+  Coins: 0
   HealthComp: {fileID: 1048695808}
 --- !u!1 &1065581833
 GameObject:
