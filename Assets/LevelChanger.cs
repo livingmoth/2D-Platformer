@@ -4,9 +4,12 @@ using UnityEngine.SceneManagement;
 public class LevelChanger : MonoBehaviour
 {
     public string sceneName;
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //sprobuj dodac if ktory robi ze tylko mozesz sie tepnac jesli masz wszystkie coins
         SceneManager.LoadScene(sceneName);
+
 
     }
 }
