@@ -48,6 +48,12 @@ public class PlayerHealth : MonoBehaviour
             CanRecieveDamage = false;
             StartCoroutine(InvincibilityTimer(invincibilityTimer, ResetInvincibility));
         }
+        if (Health <= 0)
+        {
+            SceneManager.LoadScene("GameFail");
+        }
+
+
 
 
 
