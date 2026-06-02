@@ -11860,6 +11860,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1487762657}
     - target: {fileID: 2673108696302704214, guid: 34c65abca906c5840b900e7092f11171, type: 3}
+      propertyPath: portalTimer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673108696302704214, guid: 34c65abca906c5840b900e7092f11171, type: 3}
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 1487762658}

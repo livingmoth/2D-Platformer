@@ -5657,7 +5657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547b9ee46909e0e40ba28a3917b7750e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portalTimer: 10
+  portalTimer: 5
   CanTeleport: 1
   teleportTarget: {fileID: 0}
   tl: {fileID: 0}
